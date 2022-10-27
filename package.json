@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "http-status": "^1.5.3",
+    "jimp": "^0.16.2",
+    "joi": "^17.6.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "node-fetch": "^2.6.7",
+    "node-schedule": "^2.1.0",
+    "puppeteer-core": "^19.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "author": "Mohamed Ashour",
+  "license": "ISC",
+  "optionalDependencies": {
+    "fsevents": "*"
+  }
+}
